@@ -56,7 +56,7 @@ nav {
 /* Middle column */
 .column.middle {
   width: 60%;
-  padding: 100px;
+  padding: 50px;
   color: white;
 }
 
@@ -76,7 +76,7 @@ nav {
 }
 
 .img1 {
-  padding: 50px;
+  
   border-radius: 100%;
   width: 400px;
   height: 500px;
@@ -85,10 +85,14 @@ nav {
 
 /* About Section*/
 .about {
-  text-align: justify;
-  font-size: 20px;
+  padding-top: 20%;
+  
 }
+.babout {
+  font-size: 15px;
+  text-align: justify !important;
 
+}
 
 /* Skills */
 .skills {
@@ -166,25 +170,35 @@ img:nth-child(4) {
   display: table;
 }
 
-/* Responsive Images*/
-@media screen and (max-width: 700px) {
-  .img-container {
-    width: 60%; 
-  }
-}
 
 .contact {
 
 }
 
-/* Responsive Contact*/
+/* Responsive about, Images, Contact, and Footer*/
 @media screen and (max-width: 700px) {
+
+
+  .about {
+  padding-top: 0%;
+  
+}
+  .img-container {
+    width: 58%; 
+  }
   .contact{
    margin-left: 14%;
   }
 
+  footer {
+     padding-left: 14% !important;
+  }
+
 }
+
+
 footer {
   color: white;
-  margin-left: 42% !important; 
+  
 }
+
